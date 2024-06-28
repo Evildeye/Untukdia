@@ -34,13 +34,13 @@
     
     
     <p data-aos="zoom-in">click love nya 
-      <i onclick="tanya(keyy mau jadi cwe fahmi?)" class="material-icons-sharp"> favorite </i></p>
+      <i onclick="tanya()" class="material-icons-sharp"> favorite </i></p>
 
     <script>
 
       var musik = "https://youtu.be/fPu5JcDBKDU?si=b_wsbjpZFVhSQ3RA";
 
     </script>
-    <script> AOS.init({ once: true, }); </script> <script> if(musik == "") { musik = ""; } var audio = new Audio(musik); audio.loop = true; audio.autoplay = true; function mulai() { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } function wa(isi) { window.open("https://api.whatsapp.com/send?text= " + isi); } async function tanya() { var { value: kado } = await swal.fire({ title: "kamu mau gak jadi...?", input: "text", showCancelButton: false, }); if (kado) { await swal.fire("Kirim jawabannya ke wa aku yah"); wa(kado); } else { await swal.fire("Jangan dikosongin yah,kasih ucapan"); tanya(); } } </script> <p class="wm"><span><a href="https://instagram.com/husenfahmi._?igshid=ZDc4ODBmNjlmNQ==">follow ig yang buat(Husen)</a></span></p>
+    <script> AOS.init({ once: true, }); </script> <script> if(musik == "") { musik = ""; } var audio = new Audio(musik); audio.loop = true; audio.autoplay = true; function mulai() { audio.play(); document.querySelector(".open").style = "opacity: 0;"; document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } function wa(isi) { window.open("https://api.whatsapp.com/send?text= " + isi); } async function tanya() { var { value: kado } = await swal.fire({ title: "kamu mau gak jadi cwe fahmii?", input: "text", showCancelButton: false, }); if (kado) { await swal.fire("Kirim jawabannya ke wa aku yah"); wa(kado); } else { await swal.fire("Jangan dikosongin yah,kasih ucapan"); tanya(); } } </script> <p class="wm"><span><a href="https://instagram.com/husenfahmi._?igshid=ZDc4ODBmNjlmNQ==">follow ig yang buat(Husen)</a></span></p>
   </body>
 </html>
